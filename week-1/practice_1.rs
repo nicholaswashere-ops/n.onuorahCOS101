@@ -1,3 +1,3 @@
 fn main(){
-	println!("I am Nicholas")
+	println!("Welcome to COS 101");
 }
