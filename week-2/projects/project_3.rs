@@ -1,0 +1,11 @@
+fn main(){
+	let p = 210000;
+	let r = 5;
+	let n= 3;
+	//depreciation
+	let d = p*(1-(r/100))^n;
+	println!("PRINCIPAL: ${}",p);
+	println!("RATE: {}%",r);
+	println!("TIME: {}yrs",n);
+	println!("DEPRECIATION: ${}",d);
+}
