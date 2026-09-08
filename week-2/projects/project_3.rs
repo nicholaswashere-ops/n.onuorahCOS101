@@ -4,6 +4,8 @@ fn main(){
 	let n= 3;
 	//depreciation
 	let d = p*(1-(r/100))^n;
+	//output
+	
 	println!("PRINCIPAL: ${}",p);
 	println!("RATE: {}%",r);
 	println!("TIME: {}yrs",n);

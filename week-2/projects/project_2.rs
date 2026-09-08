@@ -1,10 +1,10 @@
 fn main(){
 //amounts
-	let toshiba:f64 =450000.00;
-	let mac:f64 =1500000.00;
-	let hp:f64 =750000.00;
-	let dell:f64 =2850000.00;
-	let acer:f64 =250000.00;
+	let toshiba:f64 =450_000.00;
+	let mac:f64 =1_500_000.00;
+	let hp:f64 =750_000.00;
+	let dell:f64 =2_850_000.00;
+	let acer:f64 =250_000.00;
 	/*average
 	& sum */
 	
