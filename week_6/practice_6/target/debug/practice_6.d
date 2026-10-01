@@ -1,0 +1,1 @@
+C:\Users\Chidinma\Documents\pau\n.onuorahCOS101\week_6\practice_6\target\debug\practice_6.exe: C:\Users\Chidinma\Documents\pau\n.onuorahCOS101\week_6\practice_6\src\main.rs

@@ -36,6 +36,6 @@ fn main() {
         println!("{}, your annual incentive is N1,300,000",name);
     }
     else if experience== false  {
-        println!("{}, your annual incentive is 100,000 .This is due to your lack of experience",name);
+        println!("{}, your annual incentive is N100,000 .This is due to your lack of experience",name);
     }
 }
