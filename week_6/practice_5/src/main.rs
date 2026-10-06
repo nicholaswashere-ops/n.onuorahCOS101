@@ -9,5 +9,5 @@ fn main() {
     //this is just to leave an empty space
     println!("After trim");
     //Trim white spaces and count it 
-    println!("length is {}",fullname.trim().len());
+    println!("length is {}",fullname.trim());
 }

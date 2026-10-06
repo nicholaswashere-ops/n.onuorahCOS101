@@ -54,6 +54,7 @@ fn main() {
     println!("Amount to pay: ₦{:.2}", amount_to_pay);
     println!("Cash transfers only");
     println!("Account Number:348-5679-6784");
+    println!("Thank you for shopping come again");
 }
 
 

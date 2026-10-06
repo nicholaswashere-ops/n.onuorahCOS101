@@ -15,5 +15,6 @@ fn main() {
     let school:&'static str = "School of Science and Technology";
     //it outputs the department and School
     println!("Department: {}, \nSchool: {}",department,school);
+println!("{} {} {} {} {} ",name, uni,addr,department,school);
 
 }

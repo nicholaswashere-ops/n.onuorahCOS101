@@ -5,7 +5,7 @@ fn main() {
     let mut result:i32; //creating a mutable variable for continuous usage
 
     result= a&b; 
-    println!("(a&b)=>{}",result);
+    println!("(a&b)=>{}",result); 
 
     result=a|b;
     println!("(a|b)=>{}",result);
