@@ -44,8 +44,9 @@ fn main() {
     else if d<0.0{
         println!("No real roots");
     }
+    //a conditional statement to respond to solutions that aren't to be calculated
     else {
-        println!("Your inputs are meaningless")
+        println!("Sorry, Your inputs are meaningless")
     }
 
 }
