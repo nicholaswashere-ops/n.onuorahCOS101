@@ -6,7 +6,7 @@ fn main() {
         x+=1;
         println!("x={}",x);
 //conditional statement
-        if x==15{
+        if x==5{
             break;
         }
     }
