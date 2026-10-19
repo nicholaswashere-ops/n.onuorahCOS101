@@ -2,7 +2,7 @@ use::std::io;
 fn main() {
     println!("Welcome to EY enterprise,Nigeria ");
     println!("You have currently been selected for interviewing and we would need you to input your credentials for allocating work");
-    println!("For today, i will be your interviwer and my name is Mr.Rusty Richard, My Colleagues call me R`2");
+    println!("For today, i will be your interviewer and my name is Mr.Rusty Richard, My Colleagues call me R`2");
 
 let mut interviewee :Vec<(String,usize)> =Vec::new();
 loop{
@@ -96,5 +96,5 @@ fn checker(exp: usize) {
     println!("WELL I GUESS WERE DESPERATE.\n you qualified as an (Intern),Congratulations");
      }
      
-}// each stayement is grouped to the range they fall under
+}// each statement is grouped to the range they fall under
 
