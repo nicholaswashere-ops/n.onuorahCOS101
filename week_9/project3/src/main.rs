@@ -1,4 +1,4 @@
-use std::io::Write;
+/*use std::io::Write;
 
 fn main() {
 
@@ -11,7 +11,7 @@ fn main() {
     let table2 = vec!["Internal Affairs","Justice","Defence","Power & Steel","Petroleum"];
     let table3 = vec!["South West","North East","South South","South West","South east"];
     //Writing vectors to Store the Available before arranged under a table.
-// I placed them i values so that i can be able to sort it out as i work it out
+ // I placed them i values so that i can be able to sort it out as i work it out
 
     let heading =format!("{},{},{}\n",title[0],title[1],title[2]);
     let line1   =format!("{},{},{}\n",table1[0],table2[0],table3[0],);
@@ -32,6 +32,50 @@ fn main() {
 
 
 println!("(The EFCC Merge)Your Retrieved files Have been merged succesfully.");
+
+
+
+
+
+}
+*/
+
+
+
+
+use std::io::Write;
+use std::fs;
+
+fn main(){
+        let mut com = std::fs::File::create("comm.csv")?//.expect("Unable to create commisioner File");
+    let commi = vec!["Commisioner","Aigbogun Alamba Dauda","Murtala Afeez Bendu","Okorocha Calistus Ogbona","Adewale Jimoh Akanbi","Osazuwa Faith Etieye"];
+    // creating a file for the commisioners only  then
+    //Then creating a constant named commi Since i just learnt  it
+    let com1= format!("{}\n",commi[0]);
+    let com2= format!("{}\n",commi[1]);
+    let com3= format!("{}\n",commi[2]);
+    let com4= format!("{}\n",commi[3]);
+    let com5= format!("{}\n",commi[4]);
+    let com6= format!("{}\n",commi[5]);
+
+
+    //created a variable to store the value placed, and made sure i added a new line to skip to the next line
+
+    com.write_all(com1.as_bytes()).expect("Couldn't create a split file");
+    com.write_all(com2.as_bytes()).expect("Couldn't create a split file");
+    com.write_all(com3.as_bytes()).expect("Couldn't create a split file");
+    com.write_all(com4.as_bytes()).expect("Couldn't create a split file");
+    com.write_all(com5.as_bytes()).expect("Couldn't create a split file");
+    com.write_all(com6.as_bytes()).expect("Couldn't create a split file");
+//Writing them into the com file created and placing them vertically,I also numbered it instead f format! which will just arrange it automatically
+println!("Commisioner file created successfully");
+
+
+
+
+
+
+
 
 
 
