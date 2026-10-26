@@ -35,6 +35,7 @@ fn main() {
     println!("The brand Sold :{} Laptop\n The Quantity Sold :{}pieces\n Each Price :N{}\n Total: N{}\n",user2.brand,user2.quantity,user2.price,user2.total());
     println!("The brand Sold :{} Laptop\n The Quantity Sold :{}pieces\n Each Price :N{}\n Total: N{}\n",user3.brand,user3.quantity,user3.price,user3.total());
     println!("The brand Sold :{} Laptop\n The Quantity Sold :{}pieces\n Each Price :N{}\n Total: N{}\n",user4.brand,user4.quantity,user4.price,user4.total());
+    println!("\nThe Total Accumulated Sales from the Customers N{}",user1.total()+user2.total()+user3.total()+user4.total());//Adding the toals together to obtain sum of sales
 //This is to output the result and the user_.total is to call the method above which works with the users details
 }
 /*From the question a customer buys 3 laptops of each brand (HP, IBM, Toshiba, Dell).  obtaining the  total cost. The quantities in stock are10, 6, 10, 4.
@@ -42,4 +43,3 @@ fn main() {
 
 
 
- 
