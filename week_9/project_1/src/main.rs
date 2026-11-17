@@ -1,5 +1,5 @@
 use std::io::Write;
-
+use colored::Colorize;
 
 fn main() {
     let  header = "Larger,Stout,Non-Alcoholic\n";
@@ -17,7 +17,8 @@ let mut copy = std::fs::File::create("Nigerian_Breweries.csv").expect("Create a 
    copy.write_all(data_4.as_bytes()).expect("UNwritten datatype");
    copy.write_all(data_5.as_bytes()).expect("UNwritten datatype");
 
-   println!("Data Written to file");
+   println!("{}","Data Written to file".green());
+   print!("{}","That's whats up".purple());
 
 
 
