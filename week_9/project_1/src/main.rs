@@ -2,7 +2,7 @@ use std::io::Write;
 use colored::Colorize;
 
 fn main() {
-    let  header = "Larger,Stout,Non-Alcoholic\n";
+    let header = "Larger,Stout,Non-Alcoholic\n";
     let data_1 = "33Export,Legend,Maltina\n";
     let data_2 = "Desperados,TurboKing,AmstelMalta\n";
     let data_3 = "Gulder,,Fayrouz\n";
